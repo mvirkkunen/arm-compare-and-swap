@@ -1,0 +1,12 @@
+[package]
+name = "armwat"
+version = "0.1.0"
+authors = ["Matti Virkkunen <mvirkkunen@gmail.com>"]
+
+[dependencies]
+
+[profile.debug]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
